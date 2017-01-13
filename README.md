@@ -89,11 +89,13 @@ The first screen deals with creating our component types.
 
 ![Visualizations](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/visualizations.png)
 
-- Here's an example of the sequence diagram:
+- **Here's an example of the finished sequence digram!**
 
 ![Sequence diagram](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/sequence_diagram.png)
 
 > Note, if you add a second reference between two components, you will need to refresh ardoq for it to appear in your sequence diagram.
+
+You can make changes to the domain model within the sequence diagram itself, whether that is renaming/removing messages, changing message order or even adding new objects. Just play around with the options in the blue menu icon that appears when you hover over an object or a message :)
 
 #### Taking It Further
 
