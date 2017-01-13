@@ -34,7 +34,7 @@ You are going to need a new workspace model template for your domain model, one 
 
 - Scroll down and you will see the available workspace templates. We need to make our own, so scroll down to the bottom and select Blank Workspace.
 
-![Blank workspace](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/blank_workspace.png)
+![Blank workspace](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/blank_workspace2.png)
 
 #### Creating Components
 
