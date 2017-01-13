@@ -59,7 +59,7 @@ The first screen deals with creating our component types.
 
 - Click Next
 - You are now on the screen that allows you to specify the reference types (i.e. relationships) for your model.
-- By default you will see there is a Depends reference type available. We want to create a Message type to link our Objects together.
+- By default you will see there is a "Depends on" reference type available. We want to create a Message type to link our Objects together.
 - Click "Add new reference type", call it Message and change the colour and line style to whatever you like. You can always change it later.
 
 ![Make flexible](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/create_message.png)
