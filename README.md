@@ -97,7 +97,7 @@ The first screen deals with creating our component types.
 
 You can make changes to the domain model within the sequence diagram itself, whether that is renaming/removing messages, changing message order or even adding new objects. Just play around with the options in the blue menu icon that appears when you hover over an object or a message :)
 
-#### Taking It Further
+### Taking It Further
 
 You can model anything in Ardoq, creating custom workspace templates for any type of information you want to map. If your project has users and user stories, why not model them too? You could even create references between the user stories and the domain model. It's perfectly ok to create references between workspaces!
 
