@@ -81,15 +81,17 @@ The first screen deals with creating our component types.
 - Link the objects together with messages. Mouse over an object and click on the link icon, then click on the object you want to create a reference to.
 - On the menu that opens up, select the "Message" type and add the Return Value that you expect the target object to return. If there is no return value then just leave blank or put a placeholder like "[nothing]". The Order field determines the order of the message compared to other messages coming from that object. Just leave as 0 if you don't want to specify it.
 
+![Refrence options](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/reference_options.png)
+
 ### Viewing the Sequence diagram
 
 - The main ardoq window lists visualisations for you to select to view. Sequence Diagram should be available there. If not, click More and choose to Manage Views. Add the Sequence Diagram in the screen that opens up.
 
 ![Visualizations](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/visualizations.png)
 
-- Here's an example:
+- Here's an example of the sequence diagram:
 
-![Visualizations](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/sequence_diagram.png)
+![Sequence diagram](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/sequence_diagram.png)
 
 > Note, if you add a second reference between two components, you will need to refresh ardoq for it to appear in your sequence diagram.
 
