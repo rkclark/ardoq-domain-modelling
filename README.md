@@ -36,7 +36,7 @@ You are going to need a new workspace model template for your domain model, one 
 
 ![Blank workspace](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/blank_workspace2.png)
 
-#### Creating Components
+### Creating Components
 
 You will now be presented with the Model Editor, where we can start setting up our workspace template.
 
@@ -55,7 +55,7 @@ The first screen deals with creating our component types.
 
 ![Make flexible](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/make_flexible.png)
 
-#### Creating References
+### Creating References
 
 - Click Next
 - You are now on the screen that allows you to specify the reference types (i.e. relationships) for your model.
