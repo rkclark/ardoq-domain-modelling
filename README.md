@@ -37,6 +37,18 @@ You are going to need a new workspace model template for your domain model, one 
 
 You will now be presented with the Model Editor, where we can start setting up our workspace template.
 
-The first screen deals with creating our component types. Change the options on the blank component type to make it our Object component, like this:
+The first screen deals with creating our component types.
+
+- Change the options on the blank component type to make it our Object component, like this:
 
 ![Create Object](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/create_object.png)
+
+> Make sure you have opened Additional Properties and selected Return Value!
+
+- If you want to include a user in your domain model, click Add Top Level Component Type and setup another component, calling it User and giving it a different colour and icon.
+- For User, don't bother selecting Return Value.
+
+- Lastly, select to make your model flexible by selecting "ALLOW FLEXIBLE COMPONENT HIERARCHY". Don't worry about what this does, but trust me that it's a good thing.
+![Make flexible](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/make_flexible.png)
+
+#### Creating References
