@@ -23,14 +23,17 @@ Whenever you start a new project in Ardoq you will start by creating a new works
 
 You are going to need a new workspace model template for your domain model, one that lets you create objects (and maybe a user!).
 
-### Creating a Domain Model template
+### Creating a Domain Model Template
 
 > Quick point on language. Ardoq refers to your "things" (i.e. Objects) as "Components". It refers to the relationships between your things as "References".
 
 - From the Dashboard, click 'ADD NEW' next to Workspaces.
 - Give your workspace a name, i.e. the name of your project.
+
 ![Name workspace](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/name_workspace.png)
+
 - Scroll down and you will see the available workspace templates. We need to make our own, so scroll down to the bottom and select Blank Workspace.
+
 ![Blank workspace](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/blank_workspace.png)
 
 #### Creating Components
@@ -49,6 +52,53 @@ The first screen deals with creating our component types.
 - For User, don't bother selecting Return Value.
 
 - Lastly, select to make your model flexible by selecting "ALLOW FLEXIBLE COMPONENT HIERARCHY". Don't worry about what this does, but trust me that it's a good thing.
+
 ![Make flexible](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/make_flexible.png)
 
 #### Creating References
+
+- Click Next
+- You are now on the screen that allows you to specify the reference types (i.e. relationships) for your model.
+- By default you will see there is a Depends reference type available. We want to create a Message type to link our Objects together.
+- Click "Add new reference type", call it Message and change the colour and line style to whatever you like. You can always change it later.
+
+![Make flexible](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/create_message.png)
+
+> Note: If there is any custom data you want to save against your Objects or Messages, you can click Manage Fields at this point to set them up.
+
+- The template is now ready. Click Save as Template and call it "Domain Model". Make sure to tick that it is a flexible hierarchy before you save. Next time you create a new workspace it will be available to use.
+- After its saved as a template, click Save and our current workspace will now be using our model. Great!
+
+### Making A Domain Model
+
+*Note, this isn't an Ardoq user guide, so check out the help materials available in the app if you are new or want to learn the basics first!*
+
+- If your workspace initialized with an example component (probably called Create Your Own Structure) then just delete it.
+- Add new components for your objects (hint: click the blue +). Add a user component too if you want one. You'll now have something like this:
+
+![Objects](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/objects.png)
+
+- Link the objects together with messages. Mouse over an object and click on the link icon, then click on the object you want to create a reference to.
+- On the menu that opens up, select the "Message" type and add the Return Value that you expect the target object to return. If there is no return value then just leave blank or put a placeholder like "[nothing]". The Order field determines the order of the message compared to other messages coming from that object. Just leave as 0 if you don't want to specify it.
+
+### Viewing the Sequence diagram
+
+- The main ardoq window lists visualisations for you to select to view. Sequence Diagram should be available there. If not, click More and choose to Manage Views. Add the Sequence Diagram in the screen that opens up.
+
+![Visualizations](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/visualizations.png)
+
+- Here's an example:
+
+![Visualizations](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/sequence_diagram.png)
+
+> Note, if you add a second reference between two components, you will need to refresh ardoq for it to appear in your sequence diagram.
+
+#### Taking It Further
+
+You can model anything in Ardoq, creating custom workspace templates for any type of information you want to map. If your project has users and user stories, why not model them too? You could even create references between the user stories and the domain model. It's perfectly ok to create references between workspaces!
+
+The standard Ardoq visualisations are good, but they won't always cater for every need. If you want to see your information represented differently, check out the Ardoq plugin editor. You can create your own visualisations using Javascript. Here are some examples that might help to get you started:
+
+[Sunburst Diagram](https://github.com/rkclark/ardoq-sunburst-diagram)
+
+[Multi Bar Chart](https://github.com/rkclark/ardoq-multi-bar-chart)
