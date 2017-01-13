@@ -46,7 +46,7 @@ The first screen deals with creating our component types.
 
 ![Create Object](https://github.com/rkclark/ardoq-domain-modelling/blob/master/img/create_object.png)
 
-> Make sure you have opened Additional Properties and selected Return Value!
+> Make sure you have opened Additional Properties and selected Return Value to be true!
 
 - If you want to include a user in your domain model, click Add Top Level Component Type and setup another component, calling it User and giving it a different colour and icon.
 - For User, don't bother selecting Return Value.
